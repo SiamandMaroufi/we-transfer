@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public interface AccountRepository {
-    long createAccount(BigDecimal inicialBalance);
+    long createAccount(BigDecimal initialBalance);
 
     BigDecimal getBalance(long id);
 

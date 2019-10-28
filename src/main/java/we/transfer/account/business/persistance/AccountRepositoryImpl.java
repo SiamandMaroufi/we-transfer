@@ -23,9 +23,9 @@ class AccountRepositoryImpl implements AccountRepository {
         this.entityManager = entityManager;
     }
 
-    public long createAccount(BigDecimal inicialBalance) {
+    public long createAccount(BigDecimal initialBalance) {
         final Account account = new Account();
-        account.setBalance(inicialBalance);
+        account.setBalance(initialBalance);
         entityManager.persist(account);
         entityManager.flush();
         return account.getId();
