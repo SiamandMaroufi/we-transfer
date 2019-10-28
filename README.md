@@ -6,6 +6,6 @@ small micronaut rest applicaiton for storing transactions concurently.
 
 > `./gradlew run`
 
-> `./gradlew test`
+> `./gradlew run test`
 
-> `./gradlew build`
+> `./gradlew run build`
